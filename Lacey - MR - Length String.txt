@@ -1,0 +1,38 @@
+public class Lengthstring {
+    
+    public static void testStringMethods(){
+        
+       string letters = 'Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu';
+       integer lengthOfString = letters.length();
+       System.debug(lengthOfString);
+        
+       string city = 'Auckland';
+       string country = 'New Zealand';
+       string address = city+' '+'and'+ ' '+country;
+       system.debug(address);//print 2 strings on same line using +
+       
+       Integer lengthOfAddress = address.length();
+       system.debug (lengthOfAddress);
+        
+       string firstName = 'Rob';
+       string lastName = 'Rob';
+       
+       //If: Conditon
+       If (firstName.equalsIgnoreCase(lastName)){
+       system.debug('They are identical');
+       }
+       else
+       {
+       		system.debug('They are not identical');
+       }
+       If (firstName == lastName){
+       system.debug('They are identical Names'); 
+       }
+       	else
+       {
+       		system.debug('They are not identical Names');
+       }
+    	 
+    }        
+  
+}
