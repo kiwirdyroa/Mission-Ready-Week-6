@@ -1,0 +1,11 @@
+/*This is a SayHello class that I made.
+ * And this is a multi-line comment*/
+public class SayHello {
+    public static void SayHello() {
+        //Just saying hello
+        string message;
+        message = 'Hello Lacey';
+        System.debug(message);
+    }
+
+}
